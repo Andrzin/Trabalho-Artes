@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: yellow;
+}
+
+.menu-top {
+    background-color: white;
+}
+
+.menu-top-left {
+    height: 40px;
+}
+
+.menu-top-left a{
+    text-decoration: none;
+    color: orange;
+    font-size: 18px;
+    font-family: monospace;
+    margin-right: 7px;
+    border-right: 3px solid #ccc;
+    padding: 4px;
+    line-height: 40px;
+}
+
+.nav-right {
+
+}
+
+#first {
+    margin-left: 50px;
+}
+
+header.menu-desktop>.logo>h1>a {
+    text-decoration: none;
+    margin-left: 50px;
+    color: white;
+    font-size: 50px;
+    font-family: monospace;
+    font-weight: lighter;
+}
+
+.logo {
+    margin-top: 40px;
+}
+
+#contato {
+
+}
+
+#login {
+    background: rgb(197, 128, 0);
+    float: right;
+    height: 30px;
+    line-height: 20px;
+}
+
+#telefone {
+    float: right;
+    margin-top: 5px;
+    margin-right: 20px;
+}
+
+header.menu-desktop>nav {
+    float: right;
+    margin-right: 300px;
+}
+
+header.menu-desktop>nav a {
+    text-decoration: none;
+    color: #444;
+    
+}
+
+
+#selected {
+    background: #444;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    width: 100px;
+    display: inline-block;
+    text-align: center;
+    font-family: monospace;
+}
+
+#wallimg {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    margin-top: 150px;
+    width: 1800px;
+    height: 1000px;
+    margin-bottom: 100px;
+}
+
+#navp > a {
+    font-family: monospace;
+}
+
+
+
+.center {
+    max-width: 1100px;
+    margin: 0 auto;
+
+    text-decoration: none;
+}
+
+
+
+.loja-wraper {
+    width: 33.3%;
+
+}
+
+.box-single-loja {
+    border: 1px solid rgb(225,255,255);
+    height: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    margin-bottom: 20px;
+
+}
+
+.box-single-loja img{ 
+    width: 300px;
+}
+
+.box-single-loja p {
+    text-align: center;
+    font-size: 16px;
+    color: rgb(10,10,10);
+    border-bottom: 2px solid orange;
+    display: block;
+}
+
+.center {
+    max-width: 1100px;
+    margin: 0 auto;
+
+    text-decoration: none;
+    display: flex;
+    flex: wrap;
+}
+
+/*
+
+.center {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+
+}
+
+.box-single-loja {
+    border: 1px solid rgb(225,255,255);
+    height: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.box-single-loja img {
+    padding: 0px 30px;
+}
+
+.loja-wraper {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.box-single-loja p {
+    text-align: center;
+    font-size: 16px;
+    color: rgb(10,10,10);
+}*/
